@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
     spec.subspec "Player" do |s|
         s.source_files = 'SuperPlayer/**/*.{h,m}'
         s.resource = 'SuperPlayer/Resource/*'
-        s.dependency 'TXLiteAVSDK_Player', '= 5.2.5541'
+        s.dependency 'TXLiteAVSDK_Player', '= 4.9.4665'
 #        s.vendored_framework = "Frameworks/TXLiteAVSDK_Player.framework"
     end
 #     spec.subspec "Professional" do |s|
